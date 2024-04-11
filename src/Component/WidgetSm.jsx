@@ -81,6 +81,51 @@ export default function WidgetSm() {
             Display
           </button>
         </li>
+        <li className="widgetSmItem">
+          <img 
+              className="widgetSmImg" 
+              src="admin/src/images/Dani.jpeg" 
+              alt="" 
+              />
+          <div className="widgetSmUser">
+            <span className="widgetSmUserName">Theon Greyjoy </span>
+            <span className="widgetSmUserTitle">Software Engineer</span>
+          </div>
+          <button className="widgetSmButton">
+            <Visibility className='widgetSmIcon' />
+            Display
+          </button>
+        </li>
+        <li className="widgetSmItem">
+          <img 
+              className="widgetSmImg" 
+              src="admin/src/images/Dani.jpeg" 
+              alt="" 
+              />
+          <div className="widgetSmUser">
+            <span className="widgetSmUserName"> Davos Seaworth </span>
+            <span className="widgetSmUserTitle">Software Engineer</span>
+          </div>
+          <button className="widgetSmButton">
+            <Visibility className='widgetSmIcon' />
+            Display
+          </button>
+        </li>
+        <li className="widgetSmItem">
+          <img 
+              className="widgetSmImg" 
+              src="admin/src/images/Dani.jpeg" 
+              alt="" 
+              />
+          <div className="widgetSmUser">
+            <span className="widgetSmUserName">Oberyn Martell </span>
+            <span className="widgetSmUserTitle">Software Engineer</span>
+          </div>
+          <button className="widgetSmButton">
+            <Visibility className='widgetSmIcon' />
+            Display
+          </button>
+        </li>
       </ul>
     </div>
   )
